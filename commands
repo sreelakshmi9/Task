@@ -1,0 +1,12 @@
+git clone https://github.com/sreelakshmi9/exercise.git
+cd exercise
+git init
+mkdir myproject
+git add myproject
+cd myproject
+touch file1.txt
+cd ..
+git add myproject
+git status
+git commit -m "new folder created"
+git push origin main
